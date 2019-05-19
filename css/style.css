@@ -97,7 +97,7 @@ img {
   color: #122ab2;
 }
 
-/*---------------Introdução-------------------*/
+/*---------------INTRODUÇÃO-------------------*/
 
 .introducao {
   font-size: 3em;
@@ -107,7 +107,7 @@ img {
   padding: 60px 10px;
 }
 
-/*---------------Sobre-------------------*/
+/*---------------SOBRE-------------------*/
 
 .sobre {
   border-top: 2px solid #2c70ff;
@@ -141,7 +141,7 @@ img {
   margin: 0 10px;
 }
 
-/*---------------Produtos-------------------*/
+/*---------------PRODUTOS-------------------*/
 
 .produtos {
   max-width: 960px;
@@ -183,7 +183,7 @@ img {
   border-top: 8px solid #66d9eb;
 }
 
-/*---------------Preço-------------------*/
+/*---------------PREÇO-------------------*/
 
 .preco {
   padding: 60px;
@@ -280,7 +280,7 @@ img {
   }
 }
 
-/*---------------Qualidade-------------------*/
+/*---------------QUALIDADE-------------------*/
 
 .qualidade {
   max-width: 960px;
@@ -327,7 +327,7 @@ img {
   color: #7c7c7c;
 }
 
-/*---------------Newsletter-------------------*/
+/*---------------NEWSLETTER-------------------*/
 
 .newsletter {
   background: #f7f7f7;
@@ -363,12 +363,12 @@ img {
 }
 
 .newsletter-form input {
-  flex: 3 1 200px;
+  flex: 3 1 260px;
   font-size: 1.25em;
   color: #7c7c7c;
   font-style: italic;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
-  border: 4px;
+  border: 4px solid #2c70ff;
   background: transparent;
   padding: 10px;
   margin: 0px;
@@ -388,7 +388,30 @@ img {
   border: 0px;
   padding: 15px 10px;
 }
+
+@media (max-width: 600px) {
+  .newsletter-form button {
+    font-size: 1.5em;
+  }
+}
+
 .newsletter-form button:hover {
   background: #8aafff;
   color: #2c70ff;
+}
+
+/*---------------FOOTER-------------------*/
+
+.footer {
+  display: flex;
+  background: #2c70ff;
+  height: 200px;
+  align-items: center;
+}
+
+.footer p {
+  flex: 1;
+  text-align: center;
+  font-size: 2.25em;
+  color: #122ab2;
 }
